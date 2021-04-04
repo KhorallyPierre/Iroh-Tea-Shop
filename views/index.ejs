@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <title> Uncle Iroh's Tea Shop</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+   <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+   <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+ </header>
+
+
+<section class="CashierContainer">
+</section>
+
+   <div class="container">
+
+       <div class="jumbotron text-center">
+         <div class="CashierTitle">
+           <img class="savage"src="img/savage21.jpg" alt="21 Savage Profile Photo">
+            <h1 id= "header" > Uncle Iroh's Jasmine Dragon</h1>
+            <br> </br>
+
+         </div>
+
+           <p id= 'quote'> "You can't buy happiness, but you can always buy tea" - Uncle Iroh</p>
+
+
+
+       </div>
+       <br> </br>
+       <br> </br>
+       <br> </br>
+<section class="menu">
+
+  <form class="CashierTitle" action="/orders" method="POST">
+
+    <input type="text" value="" placeholder="customer name" name="name">
+      <h2> Try Zuko's Dumplings</h2>
+      <select name="package" class="Size" >
+        <option> Chicken with Broccoli</option>
+        <option> Shredded Pork with Scallions</option>
+        <option>  8 Steamed Beef & Cabbage Dumpling</option>
+        <option> Taiwan Style Pan Fried Dumpling</option>
+      </select>
+    <h2> Would you like some tea?</h2>
+    <select name="package" class="Size" >
+      <option> White Lotus Oolong Tea</option>
+      <option> Fire Nation Heavy Brew </option>
+      <option> Earth Nation Matcha Tea</option>
+      <option> Foggy Swamp Relaxation</option>
+      <option> Basingse Spearmint Tea</option>
+      <option> Katara Special </option>
+      <option> Prince Lu Ten Tea </option>
+      <option> Lunar Eclipse Tea </option>
+
+    </select>
+    <button class="submit" type="submit">Submit</button>
+  </form>
+
+
+</section>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
